@@ -1,0 +1,27 @@
+{
+  "backtest_name": "backtest_1",
+  "start_date": "2018-01-01",
+  "end_date": "2023-01-01",
+  "fred_api_key": "../fredapikey.txt",
+  "datapath_file": "../fred_data/",
+  "fred_datasets": [
+    {
+      "series_id": "A31ANO",
+      "lead_lag": -2
+    },
+    {
+      "series_id": "PCU4299304299301",
+      "lead_lag": -10
+    }
+  ],
+  "model_file": "models\\mymodel.py",
+  "model_class_name": "MyModel",
+  "model_params": {
+    "n_estimators": 100,
+    "max_depth": 3
+  },
+  "prices_datapath_file": "../week_data/",
+  "prices_datasets": [
+    "structural_steel_prices_norm.csv"
+  ]
+}

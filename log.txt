@@ -1,0 +1,27 @@
+INFO:root:Running file: C:\Users\Benjamin Nguyen\Desktop\RCM-X\Pack6\backtester\backtester.py
+INFO:root:Loading parameters from file: backtest_parameters.json ...
+INFO:root:Backtest name: backtest_1
+INFO:root:Start date: 2018-01-01
+INFO:root:End date: 2023-01-01
+INFO:root:Data path: ../fred_data/
+INFO:root:FRED API key found.
+INFO:root:FRED datasets: [{'series_id': 'A31ANO', 'lead_lag': -2}, {'series_id': 'PCU4299304299301', 'lead_lag': -10}]
+INFO:root:Model file: models\mymodel.py
+INFO:root:Model class name: MyModel
+INFO:root:Model params: {'n_estimators': 100, 'max_depth': 3}
+INFO:root:Prices data path: ../week_data/
+INFO:root:Prices datasets: ['structural_steel_prices_norm.csv']
+INFO:root:MyModel 100 3
+INFO:root:Loaded model: MyModel
+INFO:root:Running inference on merged datasets...
+INFO:root:Inference progress: 0.00%
+INFO:root:Inference progress: 10.00%
+INFO:root:Inference progress: 20.00%
+INFO:root:Inference progress: 30.00%
+INFO:root:Inference progress: 40.00%
+INFO:root:Inference progress: 50.00%
+INFO:root:Inference progress: 60.00%
+INFO:root:Inference progress: 70.00%
+INFO:root:Inference progress: 80.00%
+INFO:root:Inference progress: 90.00%
+INFO:root:Backtest complete. Output saved to: output_file.csv
